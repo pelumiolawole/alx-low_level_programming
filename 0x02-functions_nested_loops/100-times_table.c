@@ -7,8 +7,9 @@
  */
 void print_times_table(int n)
 {
-	int i, j, k,product;
+	int i, j, k, product;
 	j = n + 1;
+    
 	for (i = 0; i < j; i++)
 	{
 		for (k = 0; k < j; k++)
@@ -21,7 +22,7 @@ void print_times_table(int n)
 			{
 				product = i * k;
 				if (k == 0)
-		       		{
+		        {
 					_putchar('0' + product);
 				}
 				else if (product >= 10)
@@ -32,7 +33,6 @@ void print_times_table(int n)
 				}
 				else if (product >= 100)
 				{
-	       
 					_putchar('0' + (product / 100));
 					_putchar('0' + ((product / 10) % 10));
 					_putchar('0' + (product % 10));

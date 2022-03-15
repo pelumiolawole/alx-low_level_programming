@@ -8,13 +8,13 @@ int main(void)
 {
 	long int i, x = 1, y = 2, sum = 0;
 
-	for (i = 0; i < 99; i++)
+	for (i = 0; i < 101; i++)
 	{
 		printf("%lu, ", x);
 		sum = x + y;
 		x = y;
 		y = sum;
-		if (i == 98)
+		if (i == 100)
 			printf("%lu\n", x);
 	}
 	return (0);

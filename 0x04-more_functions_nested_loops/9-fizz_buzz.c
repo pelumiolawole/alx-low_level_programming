@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  *main - replace multiples of 3 and 5.
  *
  *Return: 0.
  */
+
 int main(void)
 {
 	int i;

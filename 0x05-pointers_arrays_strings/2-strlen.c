@@ -7,10 +7,15 @@
  *
  *Return: length of a string.
  */
-int strlen(char *str)
+int _strlen(char *s)
 {
-    int len;
-    len = strlen(char *str)
-	printf("%d", len)
-	return (0);
+	int i;
+
+	i = 0;
+	while (*s != '\0')
+	{
+		i++;
+		s++;
+	}
+	return (i);
 }

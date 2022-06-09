@@ -1,11 +1,10 @@
 #include "lists.h"
-
 /**
- * dlistint_len - counts number of nodes
- * @h: head of node
- * Return: number of nodes
- */ 
-
+  * dlistint_len - returns number of elements in a lineked dlistint_t list.
+  * @h: pointer to list.
+  *
+  * Return: number of elements in list.
+  */
 size_t dlistint_len(const dlistint_t *h)
 {
 	const dlistint_t *temp;

@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-#module for working with grid structures.
+"""Module for working with grid structures.
+"""
 
 
 def island_perimeter(grid: list) -> int:
@@ -10,7 +11,6 @@ def island_perimeter(grid: list) -> int:
     Returns:
         int: The perimeter of the island.
     """
-    
     rows = len(grid)
     perimeter = 0
     for i in range(rows):

@@ -10,6 +10,7 @@ def island_perimeter(grid: list) -> int:
     Returns:
         int: The perimeter of the island.
     """
+    
     rows = len(grid)
     perimeter = 0
     for i in range(rows):

@@ -1,5 +1,4 @@
 #make -f 2-Makefile
-
 CC = gcc
 SRC := main.c school.c
 OBJ := $(patsubst %.c, %.o, $(SRC))
